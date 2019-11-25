@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  SVGADemo
+//
+//  Created by 栗子 on 2018/12/14.
+//  Copyright © 2018年 http://www.cnblogs.com/Lrx-lizi/    https://github.com/lrxlizi/     https://blog.csdn.net/qq_33608748. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <SVGAParser.h>
+#import <SVGAPlayer.h>
+
+#define SCREEN_WIDTH  ([[UIScreen mainScreen] bounds].size.width)
+#define SCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
+
+#endif /* PrefixHeader_pch */

@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6ABED6AF21C380A100156547 /* PinJump.svga in Resources */ = {isa = PBXBuildFile; fileRef = 6ABED6A421C380A000156547 /* PinJump.svga */; };
+		6ABED6B021C380A100156547 /* halloween.svga in Resources */ = {isa = PBXBuildFile; fileRef = 6ABED6A521C380A000156547 /* halloween.svga */; };
+		6ABED6B121C380A100156547 /* HamburgerArrow.svga in Resources */ = {isa = PBXBuildFile; fileRef = 6ABED6A621C380A000156547 /* HamburgerArrow.svga */; };
+		6ABED6B221C380A100156547 /* angel.svga in Resources */ = {isa = PBXBuildFile; fileRef = 6ABED6A721C380A100156547 /* angel.svga */; };
+		6ABED6B321C380A100156547 /* heartbeat.svga in Resources */ = {isa = PBXBuildFile; fileRef = 6ABED6A821C380A100156547 /* heartbeat.svga */; };
+		6ABED6B421C380A100156547 /* TwitterHeart.svga in Resources */ = {isa = PBXBuildFile; fileRef = 6ABED6A921C380A100156547 /* TwitterHeart.svga */; };
+		6ABED6B521C380A100156547 /* posche.svga in Resources */ = {isa = PBXBuildFile; fileRef = 6ABED6AA21C380A100156547 /* posche.svga */; };
+		6ABED6B621C380A100156547 /* Walkthrough.svga in Resources */ = {isa = PBXBuildFile; fileRef = 6ABED6AB21C380A100156547 /* Walkthrough.svga */; };
+		6ABED6B721C380A100156547 /* kingset.svga in Resources */ = {isa = PBXBuildFile; fileRef = 6ABED6AC21C380A100156547 /* kingset.svga */; };
+		6ABED6B821C380A100156547 /* rose.svga in Resources */ = {isa = PBXBuildFile; fileRef = 6ABED6AD21C380A100156547 /* rose.svga */; };
+		6ABED6B921C380A100156547 /* EmptyState.svga in Resources */ = {isa = PBXBuildFile; fileRef = 6ABED6AE21C380A100156547 /* EmptyState.svga */; };
+		6ABED6BC21C3812500156547 /* AnimShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABED6BB21C3812500156547 /* AnimShowViewController.m */; };
+		6AD6D34321C35EF800AB11C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD6D34221C35EF800AB11C1 /* AppDelegate.m */; };
+		6AD6D34621C35EF800AB11C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD6D34521C35EF800AB11C1 /* ViewController.m */; };
+		6AD6D34921C35EF800AB11C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AD6D34721C35EF800AB11C1 /* Main.storyboard */; };
+		6AD6D34B21C35EF900AB11C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AD6D34A21C35EF900AB11C1 /* Assets.xcassets */; };
+		6AD6D34E21C35EF900AB11C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AD6D34C21C35EF900AB11C1 /* LaunchScreen.storyboard */; };
+		6AD6D35121C35EF900AB11C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD6D35021C35EF900AB11C1 /* main.m */; };
+		6AD6D35B21C35EF900AB11C1 /* SVGADemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD6D35A21C35EF900AB11C1 /* SVGADemoUITests.m */; };
+		E54E99F9629D7E78CC28FEA2 /* libPods-SVGADemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 304FBD948E1EF39816467F4C /* libPods-SVGADemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AD6D35721C35EF900AB11C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AD6D33621C35EF800AB11C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AD6D33D21C35EF800AB11C1;
+			remoteInfo = SVGADemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1628BF69DA0B11363FD011B5 /* Pods-SVGADemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVGADemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SVGADemo/Pods-SVGADemo.release.xcconfig"; sourceTree = "<group>"; };
+		304FBD948E1EF39816467F4C /* libPods-SVGADemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SVGADemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABED6A421C380A000156547 /* PinJump.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = PinJump.svga; sourceTree = "<group>"; };
+		6ABED6A521C380A000156547 /* halloween.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = halloween.svga; sourceTree = "<group>"; };
+		6ABED6A621C380A000156547 /* HamburgerArrow.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = HamburgerArrow.svga; sourceTree = "<group>"; };
+		6ABED6A721C380A100156547 /* angel.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = angel.svga; sourceTree = "<group>"; };
+		6ABED6A821C380A100156547 /* heartbeat.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = heartbeat.svga; sourceTree = "<group>"; };
+		6ABED6A921C380A100156547 /* TwitterHeart.svga */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TwitterHeart.svga; sourceTree = "<group>"; };
+		6ABED6AA21C380A100156547 /* posche.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = posche.svga; sourceTree = "<group>"; };
+		6ABED6AB21C380A100156547 /* Walkthrough.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = Walkthrough.svga; sourceTree = "<group>"; };
+		6ABED6AC21C380A100156547 /* kingset.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = kingset.svga; sourceTree = "<group>"; };
+		6ABED6AD21C380A100156547 /* rose.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = rose.svga; sourceTree = "<group>"; };
+		6ABED6AE21C380A100156547 /* EmptyState.svga */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EmptyState.svga; sourceTree = "<group>"; };
+		6ABED6BA21C3812500156547 /* AnimShowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimShowViewController.h; sourceTree = "<group>"; };
+		6ABED6BB21C3812500156547 /* AnimShowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimShowViewController.m; sourceTree = "<group>"; };
+		6AD6D33E21C35EF800AB11C1 /* SVGADemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVGADemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AD6D34121C35EF800AB11C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6AD6D34221C35EF800AB11C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6AD6D34421C35EF800AB11C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6AD6D34521C35EF800AB11C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6AD6D34821C35EF800AB11C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6AD6D34A21C35EF900AB11C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AD6D34D21C35EF900AB11C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6AD6D34F21C35EF900AB11C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AD6D35021C35EF900AB11C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6AD6D35621C35EF900AB11C1 /* SVGADemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SVGADemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AD6D35A21C35EF900AB11C1 /* SVGADemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVGADemoUITests.m; sourceTree = "<group>"; };
+		6AD6D35C21C35EF900AB11C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AD6D36521C3606E00AB11C1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C96FB1B3181C50390FFF9998 /* Pods-SVGADemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVGADemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SVGADemo/Pods-SVGADemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AD6D33B21C35EF800AB11C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E54E99F9629D7E78CC28FEA2 /* libPods-SVGADemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AD6D35321C35EF900AB11C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AD6D33521C35EF800AB11C1 = {
+			isa = PBXGroup;
+			children = (
+				6AD6D34021C35EF800AB11C1 /* SVGADemo */,
+				6AD6D35921C35EF900AB11C1 /* SVGADemoUITests */,
+				6AD6D33F21C35EF800AB11C1 /* Products */,
+				EFD5CD92D34C52A13A1ED02C /* Pods */,
+				91A2031AEEB63865777FA241 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6AD6D33F21C35EF800AB11C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AD6D33E21C35EF800AB11C1 /* SVGADemo.app */,
+				6AD6D35621C35EF900AB11C1 /* SVGADemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AD6D34021C35EF800AB11C1 /* SVGADemo */ = {
+			isa = PBXGroup;
+			children = (
+				6AD6D34121C35EF800AB11C1 /* AppDelegate.h */,
+				6AD6D34221C35EF800AB11C1 /* AppDelegate.m */,
+				6AD6D34421C35EF800AB11C1 /* ViewController.h */,
+				6AD6D34521C35EF800AB11C1 /* ViewController.m */,
+				6ABED6BA21C3812500156547 /* AnimShowViewController.h */,
+				6ABED6BB21C3812500156547 /* AnimShowViewController.m */,
+				6AD6D34721C35EF800AB11C1 /* Main.storyboard */,
+				6AD6D34A21C35EF900AB11C1 /* Assets.xcassets */,
+				6AD6D34C21C35EF900AB11C1 /* LaunchScreen.storyboard */,
+				6AD6D34F21C35EF900AB11C1 /* Info.plist */,
+				6AD6D35021C35EF900AB11C1 /* main.m */,
+				6AD6D36621C3610000AB11C1 /* Resource */,
+			);
+			path = SVGADemo;
+			sourceTree = "<group>";
+		};
+		6AD6D35921C35EF900AB11C1 /* SVGADemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6AD6D35A21C35EF900AB11C1 /* SVGADemoUITests.m */,
+				6AD6D35C21C35EF900AB11C1 /* Info.plist */,
+				6AD6D36521C3606E00AB11C1 /* PrefixHeader.pch */,
+			);
+			path = SVGADemoUITests;
+			sourceTree = "<group>";
+		};
+		6AD6D36621C3610000AB11C1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6ABED6A721C380A100156547 /* angel.svga */,
+				6ABED6AE21C380A100156547 /* EmptyState.svga */,
+				6ABED6A521C380A000156547 /* halloween.svga */,
+				6ABED6A621C380A000156547 /* HamburgerArrow.svga */,
+				6ABED6A821C380A100156547 /* heartbeat.svga */,
+				6ABED6AC21C380A100156547 /* kingset.svga */,
+				6ABED6A421C380A000156547 /* PinJump.svga */,
+				6ABED6AA21C380A100156547 /* posche.svga */,
+				6ABED6AD21C380A100156547 /* rose.svga */,
+				6ABED6A921C380A100156547 /* TwitterHeart.svga */,
+				6ABED6AB21C380A100156547 /* Walkthrough.svga */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		91A2031AEEB63865777FA241 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				304FBD948E1EF39816467F4C /* libPods-SVGADemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFD5CD92D34C52A13A1ED02C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C96FB1B3181C50390FFF9998 /* Pods-SVGADemo.debug.xcconfig */,
+				1628BF69DA0B11363FD011B5 /* Pods-SVGADemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AD6D33D21C35EF800AB11C1 /* SVGADemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AD6D35F21C35EFA00AB11C1 /* Build configuration list for PBXNativeTarget "SVGADemo" */;
+			buildPhases = (
+				44EF1B0ACB4960EBC46A575A /* [CP] Check Pods Manifest.lock */,
+				6AD6D33A21C35EF800AB11C1 /* Sources */,
+				6AD6D33B21C35EF800AB11C1 /* Frameworks */,
+				6AD6D33C21C35EF800AB11C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVGADemo;
+			productName = SVGADemo;
+			productReference = 6AD6D33E21C35EF800AB11C1 /* SVGADemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6AD6D35521C35EF900AB11C1 /* SVGADemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AD6D36221C35EFA00AB11C1 /* Build configuration list for PBXNativeTarget "SVGADemoUITests" */;
+			buildPhases = (
+				6AD6D35221C35EF900AB11C1 /* Sources */,
+				6AD6D35321C35EF900AB11C1 /* Frameworks */,
+				6AD6D35421C35EF900AB11C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AD6D35821C35EF900AB11C1 /* PBXTargetDependency */,
+			);
+			name = SVGADemoUITests;
+			productName = SVGADemoUITests;
+			productReference = 6AD6D35621C35EF900AB11C1 /* SVGADemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AD6D33621C35EF800AB11C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "http://www.cnblogs.com/Lrx-lizi/    https://github.com/lrxlizi/     https://blog.csdn.net/qq_33608748";
+				TargetAttributes = {
+					6AD6D33D21C35EF800AB11C1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					6AD6D35521C35EF900AB11C1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6AD6D33D21C35EF800AB11C1;
+					};
+				};
+			};
+			buildConfigurationList = 6AD6D33921C35EF800AB11C1 /* Build configuration list for PBXProject "SVGADemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AD6D33521C35EF800AB11C1;
+			productRefGroup = 6AD6D33F21C35EF800AB11C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AD6D33D21C35EF800AB11C1 /* SVGADemo */,
+				6AD6D35521C35EF900AB11C1 /* SVGADemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AD6D33C21C35EF800AB11C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABED6B121C380A100156547 /* HamburgerArrow.svga in Resources */,
+				6AD6D34E21C35EF900AB11C1 /* LaunchScreen.storyboard in Resources */,
+				6AD6D34B21C35EF900AB11C1 /* Assets.xcassets in Resources */,
+				6ABED6B421C380A100156547 /* TwitterHeart.svga in Resources */,
+				6ABED6B721C380A100156547 /* kingset.svga in Resources */,
+				6ABED6B521C380A100156547 /* posche.svga in Resources */,
+				6ABED6B921C380A100156547 /* EmptyState.svga in Resources */,
+				6ABED6B021C380A100156547 /* halloween.svga in Resources */,
+				6ABED6AF21C380A100156547 /* PinJump.svga in Resources */,
+				6ABED6B621C380A100156547 /* Walkthrough.svga in Resources */,
+				6ABED6B821C380A100156547 /* rose.svga in Resources */,
+				6ABED6B321C380A100156547 /* heartbeat.svga in Resources */,
+				6AD6D34921C35EF800AB11C1 /* Main.storyboard in Resources */,
+				6ABED6B221C380A100156547 /* angel.svga in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AD6D35421C35EF900AB11C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44EF1B0ACB4960EBC46A575A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SVGADemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AD6D33A21C35EF800AB11C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABED6BC21C3812500156547 /* AnimShowViewController.m in Sources */,
+				6AD6D34621C35EF800AB11C1 /* ViewController.m in Sources */,
+				6AD6D35121C35EF900AB11C1 /* main.m in Sources */,
+				6AD6D34321C35EF800AB11C1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AD6D35221C35EF900AB11C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD6D35B21C35EF900AB11C1 /* SVGADemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AD6D35821C35EF900AB11C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AD6D33D21C35EF800AB11C1 /* SVGADemo */;
+			targetProxy = 6AD6D35721C35EF900AB11C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6AD6D34721C35EF800AB11C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AD6D34821C35EF800AB11C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6AD6D34C21C35EF900AB11C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AD6D34D21C35EF900AB11C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6AD6D35D21C35EFA00AB11C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6AD6D35E21C35EFA00AB11C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AD6D36021C35EFA00AB11C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C96FB1B3181C50390FFF9998 /* Pods-SVGADemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SEWBU2EJ25;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SVGADemoUITests/PrefixHeader.pch";
+				INFOPLIST_FILE = SVGADemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lizi.SVGADemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6AD6D36121C35EFA00AB11C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1628BF69DA0B11363FD011B5 /* Pods-SVGADemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SEWBU2EJ25;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SVGADemoUITests/PrefixHeader.pch";
+				INFOPLIST_FILE = SVGADemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lizi.SVGADemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6AD6D36321C35EFA00AB11C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SVGADemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lizi.SVGADemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SVGADemo;
+			};
+			name = Debug;
+		};
+		6AD6D36421C35EFA00AB11C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SVGADemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lizi.SVGADemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SVGADemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AD6D33921C35EF800AB11C1 /* Build configuration list for PBXProject "SVGADemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AD6D35D21C35EFA00AB11C1 /* Debug */,
+				6AD6D35E21C35EFA00AB11C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AD6D35F21C35EFA00AB11C1 /* Build configuration list for PBXNativeTarget "SVGADemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AD6D36021C35EFA00AB11C1 /* Debug */,
+				6AD6D36121C35EFA00AB11C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AD6D36221C35EFA00AB11C1 /* Build configuration list for PBXNativeTarget "SVGADemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AD6D36321C35EFA00AB11C1 /* Debug */,
+				6AD6D36421C35EFA00AB11C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AD6D33621C35EF800AB11C1 /* Project object */;
+}

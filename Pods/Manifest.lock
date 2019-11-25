@@ -1,0 +1,29 @@
+PODS:
+  - Protobuf (3.6.1)
+  - SSZipArchive (1.8.1)
+  - SVGAPlayer (2.3.0):
+    - SVGAPlayer/Core (= 2.3.0)
+    - SVGAPlayer/ProtoFiles (= 2.3.0)
+  - SVGAPlayer/Core (2.3.0):
+    - SSZipArchive (= 1.8.1)
+    - SVGAPlayer/ProtoFiles
+  - SVGAPlayer/ProtoFiles (2.3.0):
+    - Protobuf (~> 3.4)
+
+DEPENDENCIES:
+  - SVGAPlayer
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Protobuf
+    - SSZipArchive
+    - SVGAPlayer
+
+SPEC CHECKSUMS:
+  Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
+  SSZipArchive: 04547dfa448be5ed7ecbaf7eaf8a6e9eb9b42997
+  SVGAPlayer: 39ad3d16643d8c63d62bd8a3decc0de4bc9b66c4
+
+PODFILE CHECKSUM: 3d8de806524ca59ce5f8c491ab2f271847166e36
+
+COCOAPODS: 1.5.3
